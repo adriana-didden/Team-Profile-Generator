@@ -1,3 +1,4 @@
+
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
@@ -133,7 +134,7 @@ const init = () => {
             message: "What's your interns's school?"
         }
         ]).then(function (results) {
-            const intern = new Engineer(results.internName, results.internId, results.internEmail, results.internSchool)
+            const intern = new Intern(results.internName, results.internId, results.internEmail, results.internSchool)
             teamMembers.push(intern)
 
             id.push(results.internId)
