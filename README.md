@@ -1,5 +1,7 @@
 
   # Team Profile Generator
+  
+  <img src="images/teamProfileGenerator.png" width ='500px'>
 
   ![user badge](https://img.shields.io/badge/license-MIT-red)
 
@@ -51,4 +53,5 @@ npm run test
 <img src="https://avatars3.githubusercontent.com/u/46576203?v=4" width='100px' />
 
 If you have any questions, please contact adriana-didden directly at adrianadidden@gmail.com. 
+
 
